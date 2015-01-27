@@ -1,3 +1,4 @@
 # w3101hws
-Spring 2015 COMS W3101 Javascript
-UNI: jam2332
+<p>Name: Jean Mariano<br/>
+UNI: jam2332</p>
+<p>Homeworks for Spring 2015 COMSW3101 Javascript</p>
