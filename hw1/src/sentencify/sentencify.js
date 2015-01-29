@@ -5,7 +5,7 @@
     var sentence = '',
         i;
     for (i in words) {
-      sentence += words[i]
+      sentence += words[i];
       if (i < words.length-1) {
         sentence += ' ';
       }
