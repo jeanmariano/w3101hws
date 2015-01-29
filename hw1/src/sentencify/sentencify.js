@@ -2,8 +2,9 @@
   'use strict';
 
   var sentencify = function (words) {
-    var sentence = '';
-    for (var i in words) {
+    var sentence = '',
+        i;
+    for (i in words) {
       sentence += words[i]
       if (i < words.length-1) {
         sentence += ' ';
