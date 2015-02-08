@@ -1,5 +1,7 @@
 (function () {
   'use strict';
+  module.exports = function(func) {
+  };
 
   // implement your csv-analyzer here
   // make sure to require in only the helper modules that you have
