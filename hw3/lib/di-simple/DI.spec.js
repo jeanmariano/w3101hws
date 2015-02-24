@@ -4,7 +4,7 @@
   var DI = require('./DI'),
       expect = require('chai').expect;
 
-  describe('Inject dependencies', function() {
+  describe.only('Inject dependencies', function() {
     function MainCtrl () { return 'MainCtrl called'; }
     function User () { return 'User Service invoked'; }
     function Auth () { return 'Auth service'; }
@@ -47,6 +47,7 @@
 
     it('shouldn\'t treat the parameters in nested functions as dependencies',
        function () {
+      // var injectedFuncWithNested = app.inject(function (User, MainCtrl, Auth) {
       var injectedFuncWithNested = app.inject(function (app, login, Auth) {
         function nested(d, e, f) {}
         var args = Array.prototype.slice.call(arguments, 0);
